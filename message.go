@@ -21,3 +21,8 @@ func (l LogLine) String() string {
 func (l LogLine) GetData() string {
 	return l.Data
 }
+
+// GetID .
+func (l LogLine) GetID() int64 {
+	return l.ID
+}
